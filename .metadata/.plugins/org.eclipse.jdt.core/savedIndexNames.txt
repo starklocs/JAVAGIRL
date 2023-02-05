@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\USER\Desktop\JAVA\curso java udemy\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3722093213.index
+3732647088.index
