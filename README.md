@@ -1,2 +1,0 @@
-# JAVAGIRL
- Aprendendo Java :)
