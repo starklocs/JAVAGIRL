@@ -5,5 +5,6 @@
  * @author USER
  *
  */
-module exerciciosudemyjava {
+module javagirl {
+	requires java.desktop;
 }

@@ -1,4 +1,4 @@
-package javagirl;
+package fundamentos;
 
 public class TipoString {
 	public static void main(String[] args) {
@@ -15,5 +15,15 @@ public class TipoString {
 		System.out.println(s.length());
 		System.out.println(s.equalsIgnoreCase("boa tarde"));
 		
+		var nome = "Joelma";
+		var sobrenome = "Oliveira";
+		var idade = 33;
+		var salario = 12345.987;
+		
+		
+		System.out.println("Nome: " + nome + " Sobrenome: " + sobrenome + " Idade "+ idade + " Salario: " + salario);
+		
+		
+		System.out.printf("Nome: %s %s anos tem %d e ganha %.2f", nome, sobrenome ,idade, salario);
 	}
 }
