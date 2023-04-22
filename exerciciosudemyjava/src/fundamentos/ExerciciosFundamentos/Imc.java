@@ -8,15 +8,18 @@ public class Imc {
 		Scanner entrada = new Scanner(System.in);
 
 		System.out.println("Qual o seu peso? ");
-		double peso = entrada.nextDouble();
+        String pesoStr = entrada.next().replace(",", ".");
+        double peso = Double.parseDouble(pesoStr);
 
-		System.out.println("Qual a sua altura? ");
-		double altura = entrada.nextDouble();
-		
+        System.out.println("Qual a sua altura? ");
+        String alturaStr = entrada.next().replace(",", ".");
+        double altura = Double.parseDouble(alturaStr);
 
-		double imc = peso / (altura * altura);
+        double imc = peso / (altura * altura);
 
-		System.out.printf("O seu IMC é: %.2f",  imc);
+        System.out.printf("O seu IMC é: %.2f", imc);
+
+        entrada.close();
 
 	}
 }
