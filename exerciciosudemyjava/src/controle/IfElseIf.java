@@ -23,7 +23,7 @@ public class IfElseIf {
 		}
 
 		System.out.println("Fim!");
-		
+
 		entrada.close();
 	}
 }
