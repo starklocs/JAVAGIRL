@@ -17,5 +17,6 @@ public class MaiorNumero {
 			}
 		}
 		System.out.println("O maior número digitado foi: " + maior);
+		entrada.close();
 	}
 }
