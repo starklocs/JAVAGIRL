@@ -1,14 +1,14 @@
 # JAVAGIRL
-Aprendendo Java e seus fundamentos
+#Aprendendo Java e seus fundamentos
 Este repositório contém códigos em Java que desenvolvi enquanto estou aprendendo a linguagem e seus fundamentos.
 
-Objetivo
+#Objetivo
 O objetivo deste repositório é documentar minha jornada de aprendizado em Java e servir como um registro do meu progresso. Além disso, os códigos podem ser úteis para outras pessoas que também estão aprendendo a linguagem e procurando exemplos de códigos simples para estudar.
 
-Conteúdo
+#Conteúdo
 O repositório contém vários arquivos Java que implementam algoritmos simples, como cálculo de média, cálculo de fatorial, jogos simples, entre outros. Cada arquivo Java tem um comentário explicando o que o programa faz e como funciona.
 
-Referências
+#Referências
 Para aprender Java e seus fundamentos, estou utilizando vários recursos, como livros, vídeos e tutoriais online. Alguns dos recursos que tenho utilizado incluem:
 
 Java para iniciantes, curso da Udemy
