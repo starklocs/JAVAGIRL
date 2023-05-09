@@ -4,4 +4,3 @@ INDEX VERSION 1.131+C:\Users\USER\Desktop\JAVA\curso java udemy\.metadata\.plugi
 1137583603.index
 1865797976.index
 3722093213.index
-3732647088.index

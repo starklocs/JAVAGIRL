@@ -1,7 +1,9 @@
 package controle.ExercicioControle;
 
+import java.util.HashSet;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.Set;
 
 public class JogoAdvinhacao {
 	public static void main(String[] args) {
@@ -10,13 +12,21 @@ public class JogoAdvinhacao {
 		
 		int numeroAleatorio = gerador.nextInt(101);
 		int numeroDeTentativas = 10;
+		Set<Integer> numerosDigitados = new HashSet<>();
 		
 		System.out.println("Bem vindo ao jogo de adivinhação!");
 		System.out.println("Você tem 10 tentativas para adivinhar um número entre 0 e 100.");
 		
-		while (numeroDeTentativas >  0) {
-			System.out.printf("Tentativa %d. Digite um número: ", 11 - numeroDeTentativas);
-			int numero = entrada.nextInt();
+		while (numeroDeTentativas > 0) {
+            System.out.printf("Tentativa %d. Digite um número: ", 11 - numeroDeTentativas);
+            int numero = entrada.nextInt();
+
+            if (numerosDigitados.contains(numero)) {
+                System.out.println("Número já digitado. Digite um número diferente.");
+                continue;
+            }
+
+            numerosDigitados.add(numero);
 			
 			if (numero == numeroAleatorio) {
 				System.out.println("Parabéns você acertou o número!");
