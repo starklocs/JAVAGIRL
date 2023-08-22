@@ -1,14 +1,21 @@
 package classe.Desafios;
 
 public class DataTeste {
+
 	public static void main(String[] args) {
-		Data dataEscolhida = new Data();
 		
-		dataEscolhida.ano = 2023;
-		dataEscolhida.mes = 06;
-		dataEscolhida.dia = 05;
+		Data d1 = new Data();
+		d1.ano = 2021;
+				
+		var d2 = new Data(31, 12, 2020);
 		
-		System.out.printf("Data Escolhida foi: %02d/%02d/%d", dataEscolhida.dia,  dataEscolhida.mes, dataEscolhida.ano);
+		String dataFormatada1 = d1.obterDataFormatada();
 		
+		System.out.println(dataFormatada1);
+		System.out.println(d2.obterDataFormatada());
+		
+		d1.imprimirDataFormatada();
+		d2.imprimirDataFormatada();
 	}
 }
+
